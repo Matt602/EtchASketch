@@ -1,6 +1,16 @@
-div.stuff {
+#container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: auto;
+    width: 420px;
+}
+
+#container div {
+    aspect-ratio: 1;
+}
+
+#container div{
     border-style: solid;
-    text-align: center;
     border-color: black;
     height: 100px;
     background-color: white;

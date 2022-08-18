@@ -1,6 +1,26 @@
 
+function createGrid() {
+    const container = document.querySelector('#container');
+    
+    
+    for(let i = 0; i < 16; i++)
+    {
+        let divs = document.createElement('div');
+        container.appendChild(divs);
+    }
+        
+    
 
-const div = document.querySelectorAll('div');
+}
+
+createGrid();
+
+
+
+
+//const div = document.querySelectorAll('#container div');
+const parent = document.querySelector('#container');
+div = parent.querySelectorAll('div');
 
 div.forEach((div) => {
 
@@ -16,5 +36,8 @@ div.forEach((div) => {
     });
 
 });
+
+
+
 
 
