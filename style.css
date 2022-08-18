@@ -1,8 +1,19 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
 #container {
+    margin-top: 200px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     height: auto;
-    width: 420px;
+    width: 400px;
+    border-style: solid;
+    border-color: black;
+    
 }
 
 #container div {
@@ -10,8 +21,7 @@
 }
 
 #container div{
-    border-style: solid;
-    border-color: black;
+    
     height: 100px;
     background-color: white;
 }
